@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background: #ffffff;
+    color: #111111;
+    font-family: "Times New Roman", serif;
+}
+
+.page {
+    width: 560px;
+    min-height: 806px;
+    margin: 0 auto;
+    padding: 18px 48px 24px;
+    background: #f7f7f7;
+    overflow: hidden;
+}
+
+.top,
+.bottom-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top {
+    margin-bottom: 20px;
+}
+
+.top-left-mark {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.dot {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #000000;
+}
+
+.short-line {
+    display: block;
+    width: 29px;
+    height: 9px;
+    background: #000000;
+}
+
+.long-mark,
+.small-long-mark {
+    display: flex;
+    justify-content: space-between;
+    width: 177px;
+    height: 15px;
+    background: #000000;
+}
+
+.long-mark span,
+.small-long-mark span {
+    width: 1px;
+    height: 15px;
+    background: #f7f7f7;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.intro-text {
+    width: 190px;
+}
+
+.big-circle {
+    width: 140px;
+    height: 140px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background: #000000;
+}
+
+.recipe h1,
+.recipe h2,
+.recipe p {
+    margin-top: 0;
+}
+
+.recipe h1,
+.recipe h2 {
+    margin-bottom: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.recipe h1 {
+    font-size: 13px;
+}
+
+.recipe h2 {
+    font-size: 9px;
+}
+
+.recipe p {
+    margin-bottom: 5px;
+    color: #555555;
+    font-size: 6.5px;
+    line-height: 1.25;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 31px;
+}
+
+.middle-left {
+    width: 108px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.big-box {
+    width: 108px;
+    height: 60px;
+    background: #000000;
+}
+
+.middle-center {
+    width: 105px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 15px;
+    margin-right: 11px;
+}
+
+.middle-right {
+    width: 145px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.mini-recipe {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.mini-square {
+    display: block;
+    flex: 0 0 16px;
+    width: 16px;
+    height: 16px;
+    background: #000000;
+}
+
+.mini-recipe .recipe {
+    flex: 1;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bottom-left {
+    width: 270px;
+}
+
+.bottom-heading {
+    margin-bottom: 17px;
+}
+
+.bottom-heading .long-mark {
+    width: 126px;
+    height: 12px;
+}
+
+.bottom-heading .long-mark span {
+    height: 12px;
+}
+
+.bottom-intro {
+    width: 178px;
+    margin-bottom: 19px;
+}
+
+.three-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.three-boxes div {
+    width: 76px;
+    height: 43px;
+    background: #000000;
+}
+
+.bottom-recipes {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.recipe-column {
+    width: 106px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.mini-column {
+    width: 112px;
+}
+
+.bottom-right {
+    width: 145px;
+    padding-top: 2px;
+}
+
+.small-long-mark {
+    width: 128px;
+    height: 12px;
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+
+.small-long-mark span {
+    height: 12px;
+}
+
+.right-intro {
+    width: 142px;
+    margin-bottom: 13px;
+}
+
+.small-circle {
+    width: 82px;
+    height: 82px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    background: #000000;
+}
+
+.right-box {
+    width: 135px;
+    height: 44px;
+    margin: 0 auto 14px;
+    background: #000000;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0;
+    }
+
+    .page {
+        width: 560px;
+        transform-origin: top left;
+    }
+}
